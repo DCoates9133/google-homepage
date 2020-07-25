@@ -1,0 +1,50 @@
+#main-section {
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+}
+
+#main-section #google-logo {
+    margin: 0 0 20px 0;
+}
+
+#main-section #search-field {
+    margin: 0 0 26px 0;
+    padding: 10px 20px;
+    border: 1px solid #9AA0A6;
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    display: inline-block;
+    white-space: nowrap;
+    width: 50%;
+}
+
+#main-section #search-field .fa-search {
+    color: #9AA0A6; 
+    width: 33.33%; 
+    text-align: start;
+}
+
+#main-section #search-field input[type="text"] {
+    border: none;
+    width: 33.33%; 
+    text-align: center;
+}
+
+#main-section #search-field .fa-microphone {
+    color: #1a73e8;
+    width: 33.33%; 
+    text-align: end;
+}
+
+#main-section #main-buttons button {
+    border: none;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    margin: 0 10px 0 0;
+    padding: 8px 15px;
+    border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}
