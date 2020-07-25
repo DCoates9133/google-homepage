@@ -1,0 +1,50 @@
+
+#header-navbar, #header-navbar .first-section, #header-navbar .first-section li,
+#header-navbar .second-section, #header-navbar .second-section li {
+    display: inline-block;
+}
+
+
+#header-navbar {
+    width: 100%;
+    padding: 20px 20px;
+    white-space: nowrap;
+}
+
+
+#header-navbar ul li a{
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+}
+
+#header-navbar .first-section, #header-navbar .second-section {
+    width: 50%;
+}
+
+
+#header-navbar .second-section {
+    text-align: end;
+}
+
+
+#header-navbar .second-section .fa {
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+    color: #000;
+    opacity: 0.75;
+}
+
+
+#header-navbar .second-section button {
+    color: white;
+    font-weight: bold;
+    background: #1a73e8;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}
