@@ -1,0 +1,36 @@
+#footer-navbar, #footer-navbar .first-section, #footer-navbar .first-section li,
+#footer-navbar .second-section, #footer-navbar .second-section li {
+    display: inline-block;
+}
+
+
+
+#footer-navbar {
+    padding: 15px 20px;
+    white-space: nowrap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    color: #5F6368;
+    text-decoration: none;
+}
+
+#footer-navbar ul li a {
+    color: #5F6368;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+}
+
+#footer-navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer-navbar .first-section, #footer-navbar .second-section {
+    width: 50%;
+}
+
+#footer-navbar .second-section {
+    text-align: end;
+}
