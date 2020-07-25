@@ -24,19 +24,33 @@
     width: 50%;
 }
 
+#header-navbar .first-section li a:hover {
+    text-decoration: underline;
+}
+
 
 
 #header-navbar .second-section {
     text-align: end;
 }
 
+#header-navbar .second-section li a:hover {
+    text-decoration: underline;
+}
 
-#header-navbar .second-section .fa {
+
+#header-navbar .second-section li a .fa {
     position: relative;
     top: 4px;
     font-size: 20px;
     color: #000;
     opacity: 0.75;
+}
+
+
+#header-navbar .second-section li a .fa:hover {
+    color: #000;
+    opacity: 2;
 }
 
 
